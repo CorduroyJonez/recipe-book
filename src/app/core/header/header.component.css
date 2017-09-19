@@ -1,0 +1,14 @@
+.navbar {
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+
+#logo{
+    display: inline-block;
+    background: url('../../../assets/img/logo.png') no-repeat;
+    background-size: 65%;
+    margin-right: 40px;
+    margin-left:10px;
+    min-width: 60px;
+}

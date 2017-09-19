@@ -1,0 +1,12 @@
+.center {
+	text-align:center;
+}
+
+button {
+	height: 50px;
+	width:100%;
+}
+
+img {
+	margin: 0 auto;
+}

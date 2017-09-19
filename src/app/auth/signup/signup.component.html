@@ -1,0 +1,34 @@
+<div class="signInCard">
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+    <h2> Welcome to RecipeBook!</h2>
+    <h3>Enter your Email and Password below for access</h3>
+    <form (ngSubmit)="onSignup(form)" #form='ngForm'>
+      <div class="form-group">
+        <label for='email'>Email</label>
+        <input type='email' 
+          id='email' 
+          name='email' 
+          ngModel class='form-control'
+          placeholder="Email" 
+          >
+      </div>
+      <div class="form-group">
+        <label for='password'>Password</label>
+        <input type='password' 
+          id='password' 
+          name='password' 
+          ngModel class='form-control'
+          placeholder="Password" 
+          >
+      </div>
+      <div class="buttonDiv">
+          <button class='btn btn-success' type='submit'>Sign Up!</button>
+          <br><br>
+          <p>Already have an account?</p>
+          <button class='btn btn-info' (click)="navSignIn()">Sign in here!</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
